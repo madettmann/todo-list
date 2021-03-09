@@ -61,7 +61,7 @@ function App() {
         <AddIcon onClick={handleAddTodo} color="primary"></AddIcon>
         </Grid>
         <div>{todos.filter(todo => !todo.complete).length} left to do</div>
-        <Button fullWidth="false" variant="contained" color="primary" onClick={handleClearComplete}>Clear Checked</Button>
+        <Button fullWidth="false" variant="contained" color="primary" onClick={handleClearComplete}>Clear Finished Tasks</Button>
       
     </Container>
     )
